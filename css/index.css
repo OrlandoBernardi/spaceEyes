@@ -1,0 +1,58 @@
+
+header{
+    width: 100%;
+    padding: 40px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://images-ext-1.discordapp.net/external/7SDBpLXcs6u2MqE-Kxyyl1EfQMkir1-u6fRqcFeok3Q/https/mir-s3-cdn-cf.behance.net/project_modules/fs/61590b37136421.5735ae02e1740.gif?width=1191&height=671);
+    color: #fff;
+    
+    
+}
+section{
+    width: 50%;
+}
+main{
+    display: flex;
+    flex-direction:row;
+}
+#secone{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    text-align: justify;
+    justify-content: space-between;
+}
+#sectwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    text-align: justify;
+}
+iframe{
+    display: none;
+    height: 400px;
+    width: 700px;  
+}
+
+img{
+    max-height: 500px;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10%;
+}
